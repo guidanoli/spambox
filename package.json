@@ -1,0 +1,11 @@
+{
+  "name": "@guidanoli/spambox",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Web3 tool for attempting DOS attacks against Cartesi Rollups applications",
+  "scripts": {},
+  "keywords": ["web3", "cartesi", "rollups", "solidity", "dos", "forge"],
+  "author": "Guilherme Dantas",
+  "license": "GPL-3.0",
+  "packageManager": "pnpm@10.11.0"
+}
