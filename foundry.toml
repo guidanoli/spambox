@@ -1,0 +1,18 @@
+[profile.default]
+src = "src"
+libs = []
+remappings = []
+libraries = []
+allow_paths = []
+include_paths = []
+evm_version = "prague"
+optimizer = true
+optimizer_runs = 200
+via_ir = true
+use_literal_content = false
+bytecode_hash = "ipfs"
+cbor_metadata = true
+solc = "0.8.30"
+
+[fmt]
+line_length = 80
