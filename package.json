@@ -15,8 +15,6 @@
   "license": "GPL-3.0",
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {
-    "@foundry-rs/anvil": "1.4.4",
-    "@foundry-rs/forge": "1.4.4",
     "@usecannon/cli": "^2.25.1"
   }
 }
