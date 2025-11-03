@@ -1,20 +1,26 @@
 {
-  "name": "@guidanoli/spambox",
-  "version": "0.0.0",
-  "private": true,
-  "description": "Web3 tool for attempting DOS attacks against Cartesi Rollups applications",
-  "keywords": [
-    "web3",
-    "cartesi",
-    "rollups",
-    "solidity",
-    "dos",
-    "forge"
-  ],
-  "author": "Guilherme Dantas",
-  "license": "GPL-3.0",
-  "packageManager": "pnpm@10.11.0",
-  "devDependencies": {
-    "@usecannon/cli": "^2.25.1"
-  }
+   "name": "@guidanoli/spambox",
+   "version": "0.0.0",
+   "private": true,
+   "description": "Web3 tool for attempting DOS attacks against Cartesi Rollups applications",
+   "keywords": [
+       "web3",
+       "cartesi",
+       "rollups",
+       "solidity",
+       "dos",
+       "forge"
+   ],
+   "author": "Guilherme Dantas",
+   "license": "GPL-3.0",
+   "packageManager": "pnpm@10.11.0",
+   "scripts": {
+       "build": "forge build",
+       "deploy": "cannon build",
+       "fmt": "forge fmt",
+       "lint": "forge lint"
+   },
+   "devDependencies": {
+       "@usecannon/cli": "^2.25.1"
+   }
 }
