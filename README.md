@@ -25,3 +25,7 @@ pnpm run build
 ```sh
 pnpm run deploy  # [cannon build options...]
 ```
+
+## Deployments
+
+- [Sepolia](https://sepolia.etherscan.io/address/0xccbf3099c70965c2c129c9b8f1ad0c62a472f5de)
