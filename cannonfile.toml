@@ -1,0 +1,8 @@
+name = "spambox"
+version = "0.0.0"
+
+[deploy.SpamBox]
+artifact = "SpamBox"
+create2 = true
+salt = "<%= zeroHash %>"
+ifExists = "continue"
